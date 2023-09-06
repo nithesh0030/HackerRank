@@ -9,3 +9,7 @@ A.
 SELECT NAME FROM CITY
 WHERE countrycode = 'USA' AND population > 120000;
 
+
+3 Q. Query all columns (attributes) for every row in the CITY table.?
+A.
+SELECT * FROM CITY;
