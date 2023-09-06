@@ -19,3 +19,9 @@ SELECT * FROM CITY;
 A.
 SELECT * FROM CITY
 WHERE ID = 1661;
+
+
+5 Q. Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE for Japan is JPN.?
+A.
+SELECT * FROM CITY
+WHERE COUNTRYCODE = 'JPN';
